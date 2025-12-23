@@ -1,0 +1,256 @@
+{
+  "title": "A Life Measured by Moments: The Memoir of Aklilu Afework",
+  "subtitle": "Life is not measured by the number of breaths we take, but by the number of moments that take our breath away!",
+  "author": {
+    "name": "Aklilu Afework",
+    "birthYear": "1941",
+    "birthPlace": "Gojjam Province, Ethiopia",
+    "father": "Ato Afework Kokebe (adoptive), Ato Tsige Kokebe (biological)",
+    "mother": "Weizero Atsede Wondim",
+    "wife": "Weizero Tarik Meket",
+    "hometown": "Debre Markos, Wuseta neighborhood"
+  },
+  "timeline": [
+    {
+      "year": "1959",
+      "event": "Ninth grade student in Jima and Debre Markos",
+      "significance": "First major life decision - leaving Jima Agricultural School due to homesickness"
+    },
+    {
+      "year": "1960-1962",
+      "event": "Student at Harar Teacher's Training College",
+      "significance": "Professional education and teaching preparation"
+    },
+    {
+      "year": "1963-1964",
+      "event": "Teacher in Arsi Province (Kofele and Huruta)",
+      "significance": "First career and discovery of biological mother"
+    },
+    {
+      "year": "1966",
+      "event": "First year student at Addis Ababa University",
+      "significance": "Higher education beginning"
+    },
+    {
+      "year": "1971",
+      "event": "University graduation with first degree in Economics",
+      "significance": "Academic achievement"
+    },
+    {
+      "year": "1971-1972",
+      "event": "Planning Commission Expert",
+      "significance": "Government service beginning"
+    },
+    {
+      "year": "1972-1973",
+      "event": "Student at Williams College",
+      "significance": "International education"
+    },
+    {
+      "year": "1973",
+      "event": "Graduation from Williams College with Master's degree",
+      "significance": "Advanced degree achievement"
+    },
+    {
+      "year": "1974",
+      "event": "Planning Commission, Senior Economist",
+      "significance": "Career advancement"
+    },
+    {
+      "year": "1975",
+      "event": "Three-month training at Bradford University",
+      "significance": "Professional development"
+    },
+    {
+      "year": "1976",
+      "event": "Gojjam Agricultural Development Corporation, General Manager",
+      "significance": "Leadership role"
+    },
+    {
+      "year": "1977-1981",
+      "event": "Head of Agriculture Department, National Revolutionary Development Campaign and Central Planning (NRDC&CP)",
+      "significance": "Senior government position"
+    },
+    {
+      "year": "1981-1982",
+      "event": "Head of Economic & Social reconstruction Department, Red Star Campaign in Asmara",
+      "significance": "Regional leadership"
+    },
+    {
+      "year": "1982-1985",
+      "event": "Production Sector Commissioner, NRDC&CP",
+      "significance": "High-level government role"
+    },
+    {
+      "year": "1986-1990",
+      "event": "Minister, ministry of Foreign Economic Relations",
+      "significance": "Ministerial appointment"
+    },
+    {
+      "year": "1990",
+      "event": "Minister, Ministry of Development Planning",
+      "significance": "Second ministerial role"
+    },
+    {
+      "year": "1990",
+      "event": "Africa Development Bank Consultant",
+      "significance": "International career transition"
+    },
+    {
+      "year": "1991-2006",
+      "event": "Africa Development Bank Senior Expert",
+      "significance": "International service career"
+    },
+    {
+      "year": "2006-present",
+      "event": "New life in retirement",
+      "significance": "Return to Ethiopia and family discovery"
+    }
+  ],
+  "keyLocations": [
+    {
+      "name": "Debre Markos",
+      "province": "Gojjam",
+      "significance": "Childhood home and upbringing",
+      "neighborhood": "Wuseta"
+    },
+    {
+      "name": "Jima Agricultural School",
+      "significance": "First major opportunity and life decision"
+    },
+    {
+      "name": "Harar Teachers Training College",
+      "significance": "Professional education and teaching preparation"
+    },
+    {
+      "name": "Kofele",
+      "province": "Arsi",
+      "significance": "Teaching career and discovery of biological mother"
+    },
+    {
+      "name": "Addis Ababa University",
+      "significance": "Higher education"
+    },
+    {
+      "name": "Williams College",
+      "country": "USA",
+      "significance": "Master's degree education"
+    },
+    {
+      "name": "Bradford University",
+      "country": "UK",
+      "significance": "Professional training"
+    },
+    {
+      "name": "Abidjan",
+      "country": "Côte d'Ivoire",
+      "significance": "African Development Bank headquarters"
+    },
+    {
+      "name": "Tunis",
+      "country": "Tunisia",
+      "significance": "African Development Bank relocated headquarters"
+    },
+    {
+      "name": "Bahir Dar",
+      "significance": "Retirement home construction"
+    },
+    {
+      "name": "Guguma",
+      "significance": "Mother's family origin"
+    },
+    {
+      "name": "Awassa",
+      "significance": "Family reunification location"
+    }
+  ],
+  "keyPeople": [
+    {
+      "name": "Ato Afework Kokebe",
+      "relationship": "Adoptive father",
+      "significance": "Raised Aklilu and his sister, fought for his rights with Ministry of Education"
+    },
+    {
+      "name": "Ato Tsige Kokebe",
+      "relationship": "Biological father",
+      "significance": "Died when Aklilu was young, had business in Kofele"
+    },
+    {
+      "name": "Weizero Atsede Wondim",
+      "relationship": "Biological mother",
+      "significance": "Reunited with during teaching years in Kofele"
+    },
+    {
+      "name": "Weizero Tarik Meket",
+      "relationship": "Wife",
+      "significance": "Life partner, managed house construction in Bahir Dar"
+    },
+    {
+      "name": "Gualu Endegnanew",
+      "relationship": "Friend and classmate",
+      "significance": "Fellow student from Gojjam, influenced Jima decision"
+    },
+    {
+      "name": "Mulugeta Seyum",
+      "relationship": "Friend and classmate",
+      "significance": "Fellow student from Gojjam"
+    },
+    {
+      "name": "Mulugeta Tenawu",
+      "relationship": "Friend and colleague",
+      "significance": "Teaching companion in Arsi Province"
+    },
+    {
+      "name": "Mr. Meisner",
+      "relationship": "Educator",
+      "significance": "American director of Jima Agricultural School"
+    },
+    {
+      "name": "Mr. Tesfa Bushen",
+      "relationship": "Educator",
+      "significance": "Deputy director of Jima Agricultural School"
+    },
+    {
+      "name": "Mr. Bodwin",
+      "relationship": "Educator",
+      "significance": "Canadian deputy director of Harar Teachers Training School"
+    },
+    {
+      "name": "Mr. Eshete Mulat",
+      "relationship": "Family friend",
+      "significance": "Helped in Kofele, knew both fathers"
+    }
+  ],
+  "themes": [
+    "Providence and divine guidance",
+    "Family connections across time and distance",
+    "Education and perseverance",
+    "Homesickness and belonging",
+    "Career progression and public service",
+    "International experience and service",
+    "Family reunification and heritage discovery",
+    "The power of unexpected encounters",
+    "Resilience and adaptation",
+    "Legacy and generational connection"
+  ],
+  "chapters": [
+    {
+      "order": 0,
+      "title": "Introduction",
+      "file": "00-introduction.md",
+      "summary": "A keepsake for generations of our family—a thread of memory woven through time."
+    },
+    {
+      "order": 1,
+      "title": "Ninth Grade Days and the Jima Encounter",
+      "file": "01-jima-encounter.md",
+      "summary": "The first major life decision - choosing homesickness over opportunity at Jima Agricultural School."
+    },
+    {
+      "order": 2,
+      "title": "Two Years of Teaching (1964-1965)",
+      "file": "02-teaching-years.md",
+      "summary": "Teaching career in Arsi Province and the miraculous discovery of biological mother."
+    }
+  ]
+}

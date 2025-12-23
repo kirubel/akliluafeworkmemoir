@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap');
+
+@layer base {
+  html {
+    font-family: 'Inter', system-ui, sans-serif;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-earth-50 text-earth-900 antialiased;
+    font-feature-settings: 'kern' 1, 'liga' 1, 'calt' 1;
+  }
+}
+
+@layer components {
+  .memoir-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  
+  .memoir-card {
+    @apply bg-white rounded-xl shadow-sm border border-earth-200 p-8 hover:shadow-lg transition-all duration-200;
+  }
+  
+  .memoir-button {
+    @apply inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-lg text-white bg-amber-600 hover:bg-amber-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-amber-500 transition-all duration-200;
+  }
+  
+  .memoir-button-secondary {
+    @apply inline-flex items-center px-6 py-3 border border-earth-300 text-base font-medium rounded-lg text-earth-700 bg-white hover:bg-earth-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-amber-500 transition-all duration-200;
+  }
+}
+
+/* Timeline component styles */
+.memoir-timeline .vertical-timeline::before {
+  background: #e0e0e0 !important;
+}
+
+.memoir-timeline .vertical-timeline-element-content {
+  border-radius: 1rem !important;
+}
+
+.memoir-timeline .vertical-timeline-element-date {
+  color: #4a2c1a !important;
+  font-weight: 600 !important;
+}
+
+/* Map popup styles */
+.leaflet-popup-content-wrapper {
+  border-radius: 0.5rem !important;
+}
+
+.custom-popup .leaflet-popup-content {
+  margin: 0 !important;
+}
+
+/* Smooth scrolling for anchor links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-earth-100;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-earth-400 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-earth-500;
+}
