@@ -1,8 +1,6 @@
 'use client'
 
-import { useState } from 'react'
 import dynamic from 'next/dynamic'
-import ReactPlayer from 'react-player'
 import MemoirTimeline from '@/components/MemoirTimeline'
 import ChapterViewer from '@/components/ChapterViewer'
 
@@ -13,7 +11,6 @@ const InteractiveMap = dynamic(() => import('@/components/InteractiveMap'), {
 })
 
 export default function HomePage() {
-  const [activeSection, setActiveSection] = useState('hero')
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-earth-50 to-amber-50">
@@ -44,33 +41,32 @@ export default function HomePage() {
           <div className="bg-black/20 backdrop-blur-sm rounded-2xl p-6 mb-8">
             <h3 className="text-white text-lg mb-4">Listen to the Full Audiobook</h3>
             <div className="aspect-video max-w-2xl mx-auto">
-              <ReactPlayer
-                url="https://youtu.be/bz5_H13DYoI"
+              <iframe
                 width="100%"
                 height="100%"
-                controls={true}
-                config={{
-                  youtube: {
-                    playerVars: { showinfo: 1 }
-                  }
-                }}
+                src="https://www.youtube.com/embed/bz5_H13DYoI"
+                title="Memoir of Aklilu Afework - Full Audiobook"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                className="rounded-lg"
               />
             </div>
           </div>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button 
-              onClick={() => setActiveSection('timeline')}
+            <a 
+              href="#chapters"
               className="px-8 py-3 bg-amber-600 text-white rounded-lg hover:bg-amber-700 transition-colors"
             >
-              Explore Timeline
-            </button>
-            <button 
-              onClick={() => setActiveSection('chapters')}
+              Read Chapters
+            </a>
+            <a 
+              href="#timeline"
               className="px-8 py-3 border-2 border-white text-white rounded-lg hover:bg-white hover:text-earth-900 transition-colors"
             >
-              Read Chapters
-            </button>
+              Explore Timeline
+            </a>
           </div>
         </div>
       </section>
@@ -94,9 +90,12 @@ export default function HomePage() {
       </section>
 
       {/* Chapters Section */}
-      <section id="chapters" className="py-16 px-6">
+      <section id="chapters" className="py-16 px-6 bg-white">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-4xl font-bold text-earth-900 text-center mb-12">Read the Memoir</h2>
+          <h2 className="text-4xl font-bold text-earth-900 text-center mb-4">Read the Memoir</h2>
+          <p className="text-center text-earth-600 mb-12 text-lg">
+            Experience Aklilu's remarkable journey through his own words
+          </p>
           <ChapterViewer />
         </div>
       </section>
