@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import Image from 'next/image'
 
 const chapters = [
   {
@@ -75,6 +76,22 @@ export default function ChapterViewer() {
             🎧 Listen
           </button>
         </div>
+
+        {/* Coffee ceremony image for Introduction */}
+        {activeChapter === 0 && (
+          <div className="mb-6">
+            <Image
+              src="/images/placeholders/coffee-ceremony.jpg"
+              alt="Traditional Ethiopian coffee ceremony"
+              width={600}
+              height={400}
+              className="w-full max-w-md mx-auto rounded-lg shadow-md"
+            />
+            <p className="text-xs text-earth-600 mt-2 text-center italic">
+              Traditional Ethiopian coffee ceremony (placeholder until family photo)
+            </p>
+          </div>
+        )}
 
         <div className="prose prose-lg max-w-none text-earth-800 leading-relaxed">
           {chapters[activeChapter].content.split('\n\n').map((paragraph, index) => (

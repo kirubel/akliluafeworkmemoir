@@ -113,27 +113,32 @@ export default function MemoirTimeline() {
                 {event.title}
               </h3>
               
-              {/* Event Image */}
-              <div className="mb-4 rounded-lg overflow-hidden">
-                <Image
-                  src={event.image}
-                  alt={event.title}
-                  width={400}
-                  height={250}
-                  className="w-full h-48 object-cover"
-                />
-                <p className="text-xs text-earth-600 mt-2 italic">{event.imageCaption}</p>
+              <div className="flex flex-col md:flex-row gap-4 mb-4">
+                {/* Event Image */}
+                <div className="md:w-1/3">
+                  <Image
+                    src={event.image}
+                    alt={event.title}
+                    width={300}
+                    height={200}
+                    className="w-full h-32 object-cover rounded-lg shadow-md"
+                  />
+                  <p className="text-xs text-earth-600 mt-1 italic">{event.imageCaption}</p>
+                </div>
+                
+                {/* Event Description */}
+                <div className="md:w-2/3">
+                  <p className="text-earth-700 leading-relaxed mb-4">
+                    {event.description}
+                  </p>
+                  <button
+                    onClick={() => handleAudioJump(event.audioTimestamp)}
+                    className="inline-flex items-center px-4 py-2 bg-amber-600 text-white rounded-lg hover:bg-amber-700 transition-colors text-sm"
+                  >
+                    🎧 Listen to this chapter
+                  </button>
+                </div>
               </div>
-              
-              <p className="text-earth-700 leading-relaxed mb-4">
-                {event.description}
-              </p>
-              <button
-                onClick={() => handleAudioJump(event.audioTimestamp)}
-                className="inline-flex items-center px-4 py-2 bg-amber-600 text-white rounded-lg hover:bg-amber-700 transition-colors text-sm"
-              >
-                🎧 Listen to this chapter
-              </button>
             </div>
           </VerticalTimelineElement>
         ))}
